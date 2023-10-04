@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- THE DOCTYPE tells the browser what type of webpage to render, the doctype used in this website is HTML5 which is the most recent HTML. -->
+<head>
+	<meta charset="UTF-8">
+	<title>My Pimpin Website</title>
+	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
+	<meta name="description" content="A sample website, nothin fancy">
+      <meta http-equiv="author" content="Francisco Campos Arias">
+      <meta name="keywords" content="html, css, web, design, sample, practice">
+      <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->	
+	<link rel="stylesheet/scss" href="javascript/app/css/style.scss" type="text/css" >
+	<!--<script src="javascript/app/js/script.js"></script>-->
+</head>
+<body>
+    <header class="header_container">
+		<div class ="header_title">
+        <h1>social media dashboard</h1>
+        <span clss="header_susbtitle">total follower 23,004</span>
+		</div> 
+
+        <fieldset class ="header_toggle toggle " aria-label = "theme toggle" role="radiogroup">
+           <label for ="light" class="visually-hidden">light</label>
+            <div class ="toggle_wrapper">
+				<input type ="radio" name="theme" id="dark" >
+				<input type ="radio" name="theme" id="system" checked>
+                <input type ="radio" name="theme" id="light" >
+                <span aria-hidden="true" class="toggle_background"></span>
+		        <span aria-hidden="true" class="toggle_button"></span>
+             </div>
+        <label for ="dark" class="visually-hidden">dark</label>
+        </fieldset>
+    </header>
+
+    <main>
+        <section class="container cards">
+			<div class = "card card_facebook">
+				<div class ="card_platform">
+					<img class="card_icon" src="javascript/app/images/pngimg.com - facebook_logos_PNG19750.png" alt ="facebook">
+				</div>
+				<div class ="card_username">@xyz</div>
+			</div>
+			<div class = "card_folowers">
+				<div class="card_count card_count-big">1987</div>
+            <div class="card_label">Followers></div>
+			</div>
+			<div class="card_change card_change-up">
+				<img src="images/arrow-pointing-to-up.svg" alt="up arrow" />
+				<div class="card_number">12 Today</div>
+			  </div>
+			</div>
+
+			<!--twitter-->
+
+			<div class = "card card_twitter">
+				<div class ="card_platform">
+					<img class="card_icon" src="javascript/app/images/twitter logo.avif" alt ="twitter">
+				</div>
+				<div class ="card_username">@xyz</div>
+			</div>
+			<div class = "card_folowers">
+				<div class="card_count card_count-big">1987</div>
+            <div class="card_label">Followers></div>
+			</div>
+			<div class="card_change card_change-up">
+				<img src="images/arrow-pointing-to-up.svg" alt="up arrow" />
+				<div class="card_number">12 Today</div>
+			  </div>
+			</div>
+
+			<!--instagram-->
+
+			<div class = "card card_instagram">
+				<div class ="card_platform">
+					<img class="card_icon" src="javascript/app/images/insta_logo.jpeg" alt ="instagram">
+				</div>
+				<div class ="card_username">@xyz</div>
+			</div>
+			<div class = "card_folowers">
+				<div class="card_count card_count-big">1987</div>
+            <div class="card_label">Followers></div>
+			</div>
+			<div class="card_change card_change-up">
+				<img src="images/arrow-pointing-to-up.svg" alt="up arrow" />
+				<div class="card_number">12 Today</div>
+			  </div>
+			</div>
+
+			<!--youtube-->
+
+			<div class = "card card_youtube">
+				<div class ="card_platform">
+					<img class="card_icon" src="javascript/app/images/youtube logo.png" alt ="youtube">
+				</div>
+				<div class ="card_username">@xyz</div>
+			</div>
+			<div class = "card_folowers">
+				<div class="card_count card_count-big">1987</div>
+            <div class="card_label">Followers></div>
+			</div>
+			<div class="card_change card_change-up">
+				<img src="images/arrow-pointing-to-up.svg" alt="up arrow" />
+				<div class="card_number">12 Today</div>
+			  </div>
+			</div>
+
+        </section>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam amet deleniti sit ullam voluptatibus neque minima aliquid, vitae asperiores commodi? Nulla ullam, labore omnis quas repellat quis nesciunt placeat culpa!ˀ
+		<section class="container">
+			<h2>Overview - Today</h2>
+			<div class="cards">
+			  <div class="card card-grid">
+				<div class="card_subtitle">Page Views</div>
+				<img src="javascript/app/images/pngimg.com - facebook_logos_PNG19750.png" alt="Facebook" />
+				<div class="card_count card_count--small">87</div>
+				<div class="card_change card_change--up">
+				  <img src="javascript/app/images/arrow-pointing-to-up.svg" alt="up arrow" />
+				  <div class="card_number">3%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Likes</div>
+				<img src="javascript/app/images/pngimg.com - facebook_logos_PNG19750.png" alt="Facebook" />
+				<div class="card_count card_count--small">52</div>
+				<div class="card_change card_change--down">
+				  <img src="javascript/app/images/down arrow.png" alt="down arrow" />
+				  <div class="card_number">2%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Likes</div>
+				<img src="javascript/app/images/insta_logo.jpeg" alt="Instagram" />
+				<div class="card_count card_count--small">5462</div>
+				<div class="card_change card_change--up">
+				  <img src="javascript/app/images/arrow-pointing-to-up.svg" alt="up arrow" />
+				  <div class="card_number">2257%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Profile Views</div>
+				<img src="javascript/app/images/insta_logo.jpeg" alt="Instagram" />
+				<div class="card_count card_count--small">52k</div>
+				<div class="card_change card_change--up">
+				  <img src="javascript/app/images/arrow-pointing-to-up.svg" alt="up arrow" />
+				  <div class="card_number">1375%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Retweets</div>
+				<img src="javascript/app/images/twitter logo.avif" alt="Twitter" />
+				<div class="card_count card_count--small">117</div>
+				<div class="card_change card_change--up">
+				  <img src="javascript/app/images/arrow-pointing-to-up.svg" alt="up arrow" />
+				  <div class="card_number">303%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Likes</div>
+				<img  src="javascript/app/images/twitter logo.avif" alt="Twitter" />
+				<div class="card_count card_count--small">507</div>
+				<div class="card_change card_change--up">
+				  <img src="javascript/app/images/arrow-pointing-to-up.svg" alt="up arrow" />
+				  <div class="card_number">553%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Likes</div>
+				<img src="javascript/app/images/youtube logo.png" alt="YouTube" />
+				<div class="card_count card_count--small">107</div>
+				<div class="card_change card_change--down">
+				  <img src="javascript/app/images/down arrow.png" alt="down arrow" />
+				  <div class="card_number">19%</div>
+				</div>
+			  </div>
+			  <div class="card card-grid">
+				<div class="card_subtitle">Total Views</div>
+				<img  src="javascript/app/images/youtube logo.png" alt="YouTube" />
+				<div class="card_count card_count--small">1407</div>
+				<div class="card_change card_change--down">
+				  <img src="javascript/app/images/down arrow.png" alt="down arrow" />
+				  <div class="card_number">12%</div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+    </main>
+</body>
+</html>

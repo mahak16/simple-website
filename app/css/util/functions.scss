@@ -1,0 +1,14 @@
+@function rem ($pixels, $context: 16) {
+    @return ($pixels/ $context) * 1rem;
+}
+
+//in css can be written as
+/* h1{
+    font-size: rem(30);
+}
+or
+h1{
+    font-size: 1.875rem;
+}
+*/
+//spource: css-tricks.com

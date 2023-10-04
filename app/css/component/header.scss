@@ -1,0 +1,14 @@
+@use'../util' as *;
+
+.header_container{
+    @include breakpoint(large){
+        display: flex;
+        justify-content : space-between
+    }
+    &_title{
+
+    }
+    &_toggle{
+
+    }
+}
